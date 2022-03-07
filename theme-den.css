@@ -2,7 +2,18 @@
 
 @import 'default';
 
-.center {
-  margin-left: auto;
-  margin-right: auto;
+@import url('@import url('https://fonts.googleapis.com/css2?family=Lora&family=Sora:wght@100&display=swap');');
+
+p, h1, h2, h3, blockquote, li { 
+    font-family: 'Sora', sans-serif;
 }
+
+blockquote {
+    background:  #d4e6f1;
+}
+
+.center { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
